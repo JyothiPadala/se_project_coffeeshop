@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The "viewport" <meta> tag tells the browser how to display elements relative to the viewport (i.e., the visible area of the browser)-->
     <title>Coffe Shop</title>
+    <!-- The "author," "keywords," and "description" <meta> tags provide information for search engines. -->
     <meta name="author" content="Jyothi Padala" />
     <meta name="keywords" content="HTML, CSS" />
     <meta name="description" content="coffee shop Landing page" />
@@ -19,14 +21,99 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Teaks coffee shop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#about">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Book a table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#menu">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Speciality coffee</span>in the
+          Triple peak library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration of a coffe shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="receipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            check out some receipes we have collected for your home brewing
+            convenience:
+          </p>
+          <ul class="recipes__videos">
+            <li>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=r5jbCsLFVU5n91Hp"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span>
+                <span>~5s</span>
+              </p>
+            </li>
+            <li>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=tdVXGQrYQ7MEldHl"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>
+                <span>~15min</span>
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section id="book a table" class="reservation"></section>
+        <section id="menu" class="menu"></section>
+        <section id="recipes" class="about"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="contacts" class="footer"></footer>
     </div>
   </body>
 </html>
