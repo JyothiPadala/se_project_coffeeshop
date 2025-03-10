@@ -126,6 +126,7 @@
   justify-content: space-between;
   gap: 20px;
   list-style-type: none;
+  border: 0;
 }
 
 .recipes__video-caption {
@@ -136,4 +137,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  border: 0;
 }
