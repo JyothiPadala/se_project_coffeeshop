@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Brief Documnet should be in unstandable format with points af the each section hard to complete without youtube links, please improve it by user friendly format

@@ -1,0 +1,27 @@
+.card {
+  width: 540px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list-item {
+  display: flex;
+  gap: 10px;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid black;
+  align-self: center; /* Add this to align the divider vertically */
+  margin: 0 10px;
+}
