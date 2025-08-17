@@ -4,15 +4,24 @@
   flex-direction: column;
   align-items: center;
   background: center / cover no-repeat #fff url("../images/background_menu.svg");
+  color: #000;
 }
 
 .menu__title {
   margin: 0 0 24px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .menu__cards {

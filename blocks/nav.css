@@ -23,11 +23,16 @@
 }
 
 .nav__link {
+  color: #000000;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Inter", "Arial", Sans-serif;
-  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
   font-size: 16px;
   line-height: 20px;
   color: #000;
