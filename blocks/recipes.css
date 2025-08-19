@@ -1,7 +1,7 @@
 .recipes {
   color: #fff;
   background-color: #0a2750;
-  background-image: url(../images/background_recipes.svg);
+  background-image: url("../images/background_recipes.svg");
   padding: 100px 80px 215px;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@
 .recipes__title {
   margin: 0 0 24px;
   max-width: 580px;
-  font-family: "Inter", "Arial", Sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .recipes__subtitle {

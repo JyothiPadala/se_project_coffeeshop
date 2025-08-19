@@ -1,7 +1,7 @@
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  font-family: "Inter", "Arial", Sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   color: #fff;
 }
 
@@ -13,7 +13,7 @@
 .footer__logo {
   width: 150px;
   height: 39px;
-  background: url("../images/logo_footer.svg") no-repeat center / contain;
+  background: url("../images/logo_coffeeshop_light.svg") no-repeat center / contain;
 }
 
 .footer__column-heading {
