@@ -41,6 +41,10 @@
   transition: opacity 0.7s;
 }
 
+.footer__social-link:hover {
+  opacity: 0.7;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
